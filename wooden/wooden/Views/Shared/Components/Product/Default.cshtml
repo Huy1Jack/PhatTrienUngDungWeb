@@ -1,0 +1,145 @@
+﻿@model IEnumerable<wooden.Models.TbProduct>
+@foreach(var item in Model)
+{
+
+<div class="slide-prd">
+	<div class="product">
+		<div class="img">
+				<img src="@item.Image" alt="Giường Châu Âu" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#">@item.Title</a></p>
+			<p class="vote">
+			    @item.Star
+				<span><i class="fas fa-star"></i></span> 
+				<span><i class="fas fa-star"></i></span> 
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (Size lớn, trắng sữa)</p>
+
+			<p class="price">
+				<span>
+					@item.Price
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="img">
+			<img src="~/images/AnhCat/sp-2.png" alt="bàn làm việc" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#">bàn làm việc</a> </p>
+			<p class="vote">
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (Size vừa, trắng nâu)</p>
+
+			<p class="price">
+				<span>
+					3,999,000
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="img">
+			<img src="~/images/AnhCat/sp-3.png" alt="Tủ quần áo" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#"> Tủ quần áo</a> </p>
+			<p class="vote">
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (4 ngăn, trắng gỗ)</p>
+
+			<p class="price">
+				<span>
+					12,999,000
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="img">
+			<img src="~/images/AnhCat/sp-4.png" alt="Kệ để đồ" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#">Kệ để đồ</a> </p>
+			<p class="vote">
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (4 ngăn, trắng gỗ)</p>
+
+			<p class="price">
+				<span>
+					2,499,000
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="img">
+			<img src="~/images/AnhCat/sp-1.png" alt="Tủ quần áo" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#"> Tủ quần áo</a> </p>
+			<p class="vote">
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (4 ngăn, trắng gỗ)</p>
+
+			<p class="price">
+				<span>
+					2,499,000
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="img">
+			<img src="~/images/AnhCat/sp-2.png" alt="Tủ quần áo" class="img-fluid">
+		</div>
+		<div class="info">
+			<p class="name"><a href="#"> Tủ quần áo</a> </p>
+			<p class="vote">
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+				<span><i class="fas fa-star"></i></span>
+			</p>
+			<p class="desc"> (4 ngăn, trắng gỗ)</p>
+
+			<p class="price">
+				<span>
+					2,499,000
+				</span> VNĐ
+			</p>
+		</div>
+	</div>
+</div>
+}
